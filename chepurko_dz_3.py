@@ -2,10 +2,10 @@
 a = int(input("Enter your number: "))
 b = min(a, 0)
 
-if a == 0:
-    print("You entered 0")
-else:
+if a:
     print(b or "Number is > 0")
+else:
+    print("You entered 0")
 
 #Exercise 2:
 c = int(input("Enter your number: "))
