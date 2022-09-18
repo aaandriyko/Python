@@ -1,10 +1,14 @@
 #Exercise 1:
 print("Hello World")
 
+
+
 #Exercise 2:
 print("Hello!\n", "I'm Andrii Chepurko\n", "I'm 23 y.o.")
 
-#Exercise 3:
+
+
+#Exercise 3: Area of a rectangle
 a = int(input("Enter length: "))
 b = int(input("Enter width: "))
 
@@ -12,7 +16,9 @@ s = a * b
 
 print("The area of your rectangle is: ", s)
 
-#Exercise 4:
+
+
+#Exercise 4: Request the user to enter two numbers and print '+', '*', '-', '/' of the two numbers
 num1 = int(input("Enter 1 number: "))
 num2 = int(input("Enter 2 number: "))
 
@@ -26,7 +32,9 @@ print("Product = ", prod1)
 print("Difference = ", diff1)
 print("Quotient = ", quot1)
 
-#Exercise 5:
+
+
+#Exercise 5: Read the raduis, print circle's diameter, circumference and area
 r = float(input("Enter the raduis of a circle: "))
 
 PI = 3.14159
