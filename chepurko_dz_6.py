@@ -3,6 +3,18 @@ for i in range(1, 101):
     if not i % 7:
         print(i)
     i += 1
+ 
+#Or
+
+i = 0
+while i < 100:
+    print(i)
+    i += 7
+
+#Or
+
+for i in range(0, 100, 7):
+    print(i)
 
 
 
@@ -18,6 +30,15 @@ elif not n:
 else:
     print('You entered not a natural number')
 
+#Or
+
+n - int(input('n = '))
+res = 1
+for i in range(2, n + 1):
+    res *+ i
+
+print(res)
+
 
 
 #Exercise 3: Multiplication table by 5
@@ -25,6 +46,17 @@ number = int(input('Enter the last number in the table: '))
 for n2 in range(1, number + 1):
     n2 = n2 * 5
     print(f'{n2 // 5} * 5 = {n2}')
+
+#Or
+
+for i in range(1, 11):
+    print(f'5 x {i} = {5 * i}')
+    
+#Or
+for j in range(1, 11):
+    for i in range(1, 11):
+        print(f'{j} x {i} = {j * i}')
+    print('*' * 20)
 
 
 
@@ -40,6 +72,14 @@ for a1 in range(1, hight - 1):
     print('*', ' ' * (width - 4), '*')
 
 print(a)
+
+#Or
+
+n, m = 5, 7
+res = '*' * m + '\n'
+res += (n - 2) * f'*{' ' * (m - 2)}*\n'
+res += '*' * m + '\n'
+print(res)
 
 
 
